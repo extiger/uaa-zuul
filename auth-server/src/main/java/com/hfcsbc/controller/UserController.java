@@ -12,7 +12,7 @@ import java.security.Principal;
 @RestController
 public class UserController {
 
-    @GetMapping("/user1114")
+    @GetMapping("/userb1")
     public Principal user(Principal user){
         return user;
     }
